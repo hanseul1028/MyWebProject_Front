@@ -50,7 +50,7 @@ const Join = () => {
     <>
       <Container>
         <form onSubmit={handleSubmit}>
-          <Title>Join</Title>
+          <Title>Create account</Title>
           <Input
             onChange={handleInputId}
             name="memberId"
@@ -73,7 +73,7 @@ const Join = () => {
             placeholder="이름을 입력해주세요."
             required
           />
-          <Button type="submit">Create Account</Button>
+          <Button type="submit">Continue</Button>
         </form>
       </Container>
     </>

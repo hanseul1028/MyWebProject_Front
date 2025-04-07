@@ -10,6 +10,8 @@ import Home from "./component/Common/Home/Home";
 import Movies from "./component/Movie/Movies";
 import MovieDetail from "./component/Movie/MovieDetail";
 import Join from "./component/Member/Join/Join";
+import Login from "./component/Member/Login/Login";
+import { AuthContext } from "./component/Common/context/AuthContext";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Movies/>} />
           <Route path="/join" element={<Join/>}/>
+          <Route path="/login" element={<Login/>}/>
           <Route path="/movie/:id" element={<MovieDetail />} />
           <Route path ="/*" element={<h1>존재하지 않는 페이지 요청입니다</h1>}/>
         </Routes>
