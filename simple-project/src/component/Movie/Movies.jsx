@@ -8,7 +8,7 @@ function Movies() {
   const [movies, setMovies] = useState([]);
   const sliderRef = useRef(null);
   const navigate = useNavigate();
-
+  
   useEffect(() => {
     const fetchMovies = async () => {
       try {

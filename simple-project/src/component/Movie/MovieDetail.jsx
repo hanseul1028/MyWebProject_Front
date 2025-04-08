@@ -65,9 +65,9 @@ const MovieDetail = () => {
         <div
             style={{
                 display: "flex",
-                gap: "2rem",
+                gap: "2rem", 
                 padding: "2rem 5vw",
-                color: "white",
+                color: "white", 
                 flexWrap: "wrap",
                 alignItems: "flex-start",
                 justifyContent: "center",

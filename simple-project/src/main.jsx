@@ -8,7 +8,7 @@ import { AuthProvider } from "./component/Common/context/AuthContext.jsx";
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AuthProvider>
-      <App />
+        <App />
     </AuthProvider>
   </React.StrictMode>
 )
