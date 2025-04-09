@@ -57,6 +57,7 @@ export const StyledStoreName = styled.h3`
   font-size : 17px;
   margin : 0px;
   margin-top : 12px;
+  // padding : 10px;
 `
 export const StyledMoreButton = styled.div`
   width : 150px;

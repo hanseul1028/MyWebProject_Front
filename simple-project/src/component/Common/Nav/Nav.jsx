@@ -24,7 +24,7 @@ const Nav = () => {
           <NavLink onClick={logout}>로그아웃</NavLink>
         </>
       )}
-    </StyledNav>
+    </StyledNav>  
   );
 };
 export default Nav;
